@@ -42,7 +42,6 @@ if __name__ == "__main__":
     origin = 0
     running = True
 
-<<<<<<< Updated upstream
 
     #These lines below will change with the kcat output
 
@@ -54,13 +53,6 @@ if __name__ == "__main__":
     # Unpack the list into two variables
 
     #next(fileinput.input()) --> this will be used to get the next value, I believe. 
-=======
-    #data from the topic
-    boat = topic_consumer()
-
-
-    lon, lat = boat["LAT"], boat["LON"]  
->>>>>>> Stashed changes
 
 
     pixlon,pixlat = convert_geographic_coordinate_to_pixel_value(lon, lat, transform)
